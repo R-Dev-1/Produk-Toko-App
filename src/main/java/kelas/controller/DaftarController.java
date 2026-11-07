@@ -68,8 +68,8 @@ public class DaftarController {
         totalCol.setCellValueFactory(sumberTotal);
 
         filterJenisBox.getItems().add("Semua");
-        filterJenisBox.getItems().add("Reguler");
-        filterJenisBox.getItems().add("Mahasiswa");
+        filterJenisBox.getItems().add("Makanan");
+        filterJenisBox.getItems().add("Minuman");
         filterJenisBox.setValue("Semua");
 
         tabel.setItems(dataTampilan);

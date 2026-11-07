@@ -23,13 +23,12 @@
                 <VBox spacing="16" styleClass="page">
                     <VBox spacing="12" styleClass="card">
                         <Label styleClass="subtitle" text="Buat produk baru" />
-                        <Label text="Nama pembeli" />
-                        <TextField fx:id="namaField" promptText="Contoh: Rani" />
-                        <Label text="Jenis tiket" />
+                        <Label text="Nama produk" />
+                        <TextField fx:id="namaField" promptText="Contoh: Kopi" />
+                        <Label text="Kategori produk" />
                         <ComboBox fx:id="jenisBox" maxWidth="Infinity" />
-                        <Label styleClass="muted" text="Reguler Rp50.000 • Mahasiswa Rp35.000" wrapText="true" />
-                        <Label text="Jumlah tiket" />
-                        <TextField fx:id="jumlahField" promptText="Contoh: 2" />
+                        <Label text="Harga Produk" />
+                        <TextField fx:id="jumlahField" promptText="Contoh: 35000" />
                         <Label text="Lampiran (opsional)" />
                         <ImageView fx:id="gambarView" fitHeight="160" fitWidth="280" preserveRatio="true" />
                         <Button onAction="#pilihGambar" text="Pilih Gambar" />

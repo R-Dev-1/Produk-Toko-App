@@ -29,9 +29,9 @@
         <TableView fx:id="tabel">
             <columns>
                 <TableColumn fx:id="kodeCol" prefWidth="100" text="Kode" />
-                <TableColumn fx:id="namaCol" prefWidth="230" text="Pembeli" />
+                <TableColumn fx:id="namaCol" prefWidth="230" text="Nama" />
                 <TableColumn fx:id="jenisCol" prefWidth="150" text="Kategori" />
-                <TableColumn fx:id="totalCol" prefWidth="150" text="Harga" />
+                <TableColumn fx:id="totalCol" prefWidth="150" text="Harga (Rp)" />
             </columns>
         </TableView>
     </center>
