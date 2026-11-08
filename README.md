@@ -44,15 +44,6 @@ Aplikasi ini menggunakan Maven, sehingga semua *library* sudah dikelola secara o
 4. Jalankan aplikasi (Run).
    * *Jika Run biasa gagal, gunakan perintah Maven: `javafx:run`.*
 
-## 💡 Catatan untuk Pengembang (Developer Notes)
-
-Jika Anda ingin memodifikasi kode sumber aplikasi ini, perhatikan beberapa aturan berikut:
-* **Edit UI:** Seluruh perubahan tampilan (warna, ukuran, posisi) wajib dilakukan melalui **Scene Builder** pada file `.fxml`, bukan di di dalam kode Java.
-* **TableView:** Jika Anda menambahkan atribut baru pada produk, pastikan variabel di file `Model` (misal: `Penambahan.java`) memiliki *method Getter* yang sesuai agar `PropertyValueFactory` dapat membaca datanya.
-* **Injeksi Data:** Setiap halaman *Controller* baru wajib menerima suntikan data utama menggunakan `setKonteks()` sebelum ditampilkan oleh `Navigator`, agar terhindar dari *NullPointerException*.
-
----
-*Dibuat sebagai proyek pembelajaran dan portofolio pengembangan aplikasi GUI JavaFX tingkat lanjut.*
 
 ## Lampiran
 Tampilan form.fxml
